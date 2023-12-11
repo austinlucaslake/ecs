@@ -1,9 +1,9 @@
-# Apache-2.0 License 
+# Apache 2.0 License 
 # Copyright (c) 2023 Austin Lucas Lake <53884490+austinlucaslake@users.noreply.github.com>
 #
 # Main CMake Project file
 cmake_minimum_required(VERSION 3.23.5 FATAL_ERROR)
-project(c-template)
+project(ecs)
 
 find_package(${META_PROJECT_NAME} REQUIRED HINTS "${CMAKE_CURRENT_SOURCE_DIR}/../../../")
 
@@ -11,7 +11,7 @@ set(target main)
 message(STATUS "Test ${target}")
 
 set(sources
-    main.c
+    main.cpp
 )
 
 add_executable(${target}

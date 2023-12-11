@@ -1,4 +1,4 @@
-# Apache-2.0 License 
+# Apache 2.0 License 
 # Copyright (c) 2023 Austin Lucas Lake <53884490+austinlucaslake@users.noreply.github.com>
 #
 # Main CMake Project file
@@ -7,10 +7,10 @@ cmake_minimum_required(VERSION 3.23.5 FATAL_ERROR)
 cmake_policy(SET CMP0063 NEW)
 cmake_policy(SET CMP0091 NEW)
 project(
-	c-template
+	ecs
 	VERSION 0.1.0
 	LANGUAGES C CXX
-	DESCRIPTION "Template repository for C/C++ projects.")
+	DESCRIPTION "Entity component system and physics simulator developed in C++.")
 
 set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED TRUE)

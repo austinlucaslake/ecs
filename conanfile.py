@@ -1,12 +1,12 @@
 from conan import ConanFile
 
 class CompressorRecipe(ConanFile):
-    name = "c-template"
+    name = "ecs"
     version = "0.1.0"
     license = "Apache-2.0"
     author = "Austin Lucas Lake (53884490+austinlucaslake@users.noreply.github.com)"
-    url = "https://github.com/austinlucaslake/c-template"
-    description = "Template repository for C/C++ projects."
+    url = "https://github.com/austinlucaslake/ecs"
+    description = "Entity component system and physics simulator developed in C++."
     topics = ("quaternion", "render", "ASCII")
     settings = "arch", "compiler", "build_type", "os"
     exports_sources = "CMakeLists.txt", "src/*", "include/*"
