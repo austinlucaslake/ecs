@@ -1,0 +1,4 @@
+build/
+src/CMakeUserPresets.json
+defaults.cfg
+main.plist
